@@ -1,0 +1,18 @@
+const alunos = ['Vieira', 'Lucas'];
+console.log(alunos); //1
+
+alunos.push('Marcos'); //2
+console.log(alunos); 
+
+alunos.pop();          //3
+console.log(alunos);
+
+console.log(alunos.slice(0,-1));
+ 
+alunos[2] = 'Giovanna';  //5
+console.log(alunos);
+
+alunos.unshift('Mario');
+console.log(alunos);
+
+
