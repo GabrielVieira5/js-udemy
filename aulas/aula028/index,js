@@ -12,7 +12,9 @@ console.log(alunos.slice(0,-1));
 alunos[2] = 'Giovanna';  //5
 console.log(alunos);
 
+
 alunos.unshift('Mario');
 console.log(alunos);
+
 
 
