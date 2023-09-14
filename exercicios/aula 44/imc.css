@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(2, 119, 119);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.principal > h1, p{
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    width: 400px;
+}
+.principal > form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    padding: 25px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 661px;
+    background-color: white;
+    margin: auto;
+    height: 519px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 8px #00000091;
+}
+.principal > label, input{
+    margin: auto;
+    margin-bottom: 15px ;
+}
+label{
+    margin: auto;
+}
+input{
+    width: 450px;
+    height: 20px;
+}
+input:focus{
+    transition: 0.5s;
+    height: 25px;
+    width: 465px;
+}
+input:not(:focus){
+    transition: 0.5s;
+    height: 20px;
+    width: 450px;
+}
+
+button{
+    margin: auto;
+    width: 100px;
+    height: 20px;
+}
