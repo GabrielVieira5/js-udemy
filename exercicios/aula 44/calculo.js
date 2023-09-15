@@ -32,3 +32,7 @@ function calcular() {
 
 }
 calcular();
+
+//MINHA FORMA DE FAZER (funcionando)
+
+
