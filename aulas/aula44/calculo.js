@@ -10,11 +10,12 @@ form.addEventListener('submit', function teste (e){
 
     if (!peso){
         return console.log('Peso inválido')
-    } else if (!altura){
-        console.log('Altura inválida')
+    } else if (!altura){ 
+        return console.log('Altura inválida')
+    } else {
+        return console.log('deu certo')
     }
-    return console.log('deu certo')
-});
+    });
 
 function criar (){
     const p = createElement('p'); //vai criar o elemento que está dentro de ()
