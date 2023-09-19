@@ -37,7 +37,7 @@ form.addEventListener('submit', function (e){
         return imc.toFixed(2); //só 2 casas decimais
     }
     const getnivelIMC = nivelIMC(imc);
-    console.log(getnivelIMC)
+    console.log(getnivelIMC);
 });
 
 function criar () {
