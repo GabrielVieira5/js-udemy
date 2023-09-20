@@ -1,2 +1,9 @@
-const data = new Date(2005, 10 , 10, 15, 47, 12, 10); //cria uma várivael de tipo data
-console.log(data.toString());
+function criaData (data){
+    const dia = data.getDate();
+    console.log(dia);
+}
+const data = new Date();
+
+
+
+//console.log(data.toString());
