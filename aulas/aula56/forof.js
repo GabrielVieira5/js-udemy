@@ -6,7 +6,7 @@ for(let i = 0; i < nome.length; i++){
 }
 console.log('')
 
-for(let i in nome) {
+for(let i in nome) { 
     console.log(nome[i])
 }
 
