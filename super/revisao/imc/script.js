@@ -16,10 +16,10 @@ function calcular (){
         console.log(resultado)
 
         if(resultado < 16.9) {
-            console.log('gay!!')
+            console.log('!!')
         }
         if(resultado > 17 && resultado < 18.4) {
-            console.log('funciona ja filhao')
+            console.log('')
         }
         else {
             console.log('Por favor, verifique os valores novamente!')
