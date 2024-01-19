@@ -16,7 +16,7 @@ console.log('EXERCICIO DE LÓGICA 2: ')
 
 function ePaisagem (larg, altu){
     
-    if(larg && altu !== Number){
+    if(typeof larg !== 'number' || typeof altu !== 'number') {
         return console.log('Por favor digite em números')
     }
 
@@ -31,24 +31,23 @@ ePaisagem(555, 900)
 console.log('')
 console.log('EXERCICIO DE LÓGICA 3: ');
 
-function divisivel (num){
-    const resultado3 = num % 3;
-    const resultado5 = num % 5;
-
-    if (typeof num !== Number){
-        return console.log('Por favor, informe um número!')
+function divisivel (num) {
+    if (num % 3 === 0 && num % 5 !== 0){
+        return console.log(`O número informado é divisivel por 3`);
     }
 
-    if(resultado3 === Math.floor){
-        return console.log(`${num} é divisivel por 3 e o resultado é: ${resultado3}`)
-    }
-    if(resultado5 === Math.floor){
-        return console.log(`${num} é divisivel por 5 e o resultado é: ${resultado5}`)
+    if (num % 5 === 0 && num % 3 !== 0) {
+        return console.log(`O número informado é divisivel por 5`);
     }
 
-    return console.log('oi')
+    if(num % 3 === 0 || num % 5 === 0){
+        return console.log(`O número informado é divisivel por ambos`);
+    }
+
+    else{
+        return console.log(`Número informado não é válido ou não divisivel`);
+    }
 }
 
-divisivel(3);
-
+divisivel(17)
 
